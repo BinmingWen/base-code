@@ -29,11 +29,11 @@ public class Demo01Main {
         System.out.println(link);
         String peek = link.peek();
         System.out.println(peek);
-        System.out.println(link
+        System.out.println(link);
         System.out.println("=======");
         String remove = link.remove();
         System.out.println(remove);
         System.out.println(link);
-        System.out.println("====="););
+        System.out.println("=====");
     }
 }
