@@ -7,14 +7,14 @@ public class MyInterfaceMain {
         imple.method();
 
         System.out.println("========");
-        //匿名对象
+        /*//匿名对象
         new MyInterface(){
 
             @Override
             public void method() {
                 System.out.println("实现方法1");
             }
-        }.method();
+        }.method();*/
 
         System.out.println("=======");
         //匿名内部类

@@ -18,6 +18,10 @@ public class Demo01 {
         for (int a : arr) {
             System.out.println(a);
         }
+        String[] str = list.toArray(new String[20]);
+        for (String s : str) {
+            System.out.println(s);
+        }
 
     }
 }
