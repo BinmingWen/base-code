@@ -7,7 +7,7 @@ public class Outer {
         public void methodInner() {
             int num = 30;      //局部变量
             System.out.println(num);  //方法局部变量
-            System.out.println(this.num); //外部类成员变量
+            System.out.println(this.num); //内部类成员变量
             System.out.println(Outer.this.num);  //外部成员变量
         }
     }

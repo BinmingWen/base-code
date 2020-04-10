@@ -6,9 +6,10 @@ public class Hero {
 
     public void attack() {
         System.out.println("我是" + name + "，施放技能");
-       skill.use();
+        skill.use();
         System.out.println("施放技能完毕！");
     }
+
     public String getName() {
         return name;
     }

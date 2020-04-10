@@ -5,7 +5,8 @@ package cn.wyu.Array;
 【1，2，3，4】
 【4，3，2，1】
  */
-public class demo06 {
+public class
+demo06 {
 
     public static void main(String[] args) {
         int[] array = {10,20,30,40,50};
