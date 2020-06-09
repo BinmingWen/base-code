@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>history对象</title>
+</head>
+<body>
+<input type="button" value="获取历史记录个数" id="bton">
+<a href="轮播图案例.html" id="hr">轮播图页面</a>
+<input type="button" value="前进" id="forward">
+<script>
+    var bton = document.getElementById("bton");
+    bton.onclick = function () {
+        var length = history.length;
+        alert(length);
+    }
+    var forward = document.getElementById("forward");
+    forward.onclick = function () {
+        history.go(1);
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选择器</title>
+    <style>
+    <!--   元素选择器     -->
+        div{
+            color:red;
+        }
+
+        /*类选择器*/
+        .cl{
+            color:green;
+        }
+        /*id选择器*/
+        #div1{
+            color:blue;
+        }
+
+    </style>
+</head>
+<body>
+<!--id选择器优先级比元素选择器的优先级高-->
+<div id="div1">Hello world</div>
+
+<div >Hello world l love you</div>
+<!--类选择器高于元素选择器-->
+<div class="cl">五邑大学</div>
+<p class="cl">黑马程序员</p>
+</body>
+</html>

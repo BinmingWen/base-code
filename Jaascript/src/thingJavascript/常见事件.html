@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>常见事件</title>
+    <script>
+        //1.加载事件
+        window.onload = function () {
+            //2.失去焦点事件
+           /* document.getElementById("username").onblur = function () {
+                alert("失去焦点！")
+            }*/
+            /*//3.鼠标事件
+            document.getElementById("username").onmouseover = function(){
+                alert("鼠标来了！");
+            }*/
+            /*document.getElementById("username").onmousedown = function () {
+                alert("鼠标点击事件");
+            }*/
+            /*document.getElementById("username").onmouseleave = function () {
+                alert("鼠标离开事件");
+            }*/
+            //4.键盘事件
+           /* document.getElementById("username").onkeydown = function () {
+                alert("键盘单击事件");
+            }*/
+            /*document.getElementById("username").onkeyup = function () {
+                alert("键盘松开");
+            }*/
+           /* document.getElementById("username").onkeypress = function () {
+                alert("按下并松开");
+            }
+*/
+           /*//5.选择和改变
+            document.getElementById("username").onchange = function () {
+                alert("内容改变了");
+            }
+            document.getElementById("city").onchange = function () {
+                alert("城市选择了")
+            }*/
+            /*document.getElementById("form").onsubmit = function () {
+                var flag = false;
+                //return false;
+            }*/
+            function checkform() {
+                return false;
+            }
+        };
+    </script>
+</head>
+<body>
+<form action="#" id="form" onclick="checkform();">
+    <input type="text" id="username" >
+    <select name="" id="city">
+        <option value="">--请选择--</option>
+        <option value="">北京</option>
+        <option value="">广州</option>
+        <option value="">西安</option>
+    </select>
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>

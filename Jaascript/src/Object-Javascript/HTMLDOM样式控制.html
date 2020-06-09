@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>样式控制</title>
+    <style>
+        .d1{
+            border: solid red 2px;
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+<div id="div">
+    div
+</div>
+<div id="div2">div</div>
+<script>
+    var div = document.getElementById("div");
+    div.onclick = function(){
+        div.style.border="1px solid red";
+        div.style.width = "100px";
+        div.style.fontSize = "33px";
+    }
+    var div2 = document.getElementById("div2");
+    div2.onclick = function(){
+        div2.className = "d1";
+    }
+</script>
+</body>
+</html>

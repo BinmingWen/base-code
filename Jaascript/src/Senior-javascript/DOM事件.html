@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM</title>
+    <script>
+        function fun() {
+            alert("你来打我啊");
+        }
+    </script>
+</head>
+<body>
+<img src="../img/off.gif" alt="" id="light" onclick=fun()>
+<img src="../img/off.gif" alt="" id="light2">
+
+<script>
+    function fun2() {
+        alert("打你怎么样");
+
+    }
+    var l = document.getElementById("light2");
+    l.onclick = fun2;
+</script>
+</body>
+</html>

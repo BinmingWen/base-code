@@ -10,11 +10,13 @@
       <module fileurl="file://$PROJECT_DIR$/FileAndRecursion/FileAndRecursion.iml" filepath="$PROJECT_DIR$/FileAndRecursion/FileAndRecursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/FunctionalInterface/FunctionalInterface.iml" filepath="$PROJECT_DIR$/FunctionalInterface/FunctionalInterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generic/Generic.iml" filepath="$PROJECT_DIR$/Generic/Generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Jaascript/Jaascript.iml" filepath="$PROJECT_DIR$/Jaascript/Jaascript.iml" />
       <module fileurl="file://$PROJECT_DIR$/Junit/Junit.iml" filepath="$PROJECT_DIR$/Junit/Junit.iml" />
       <module fileurl="file://$PROJECT_DIR$/MethodReference/MethodReference.iml" filepath="$PROJECT_DIR$/MethodReference/MethodReference.iml" />
       <module fileurl="file://$PROJECT_DIR$/Net/Net.iml" filepath="$PROJECT_DIR$/Net/Net.iml" />
       <module fileurl="file://$PROJECT_DIR$/Reflect/Reflect.iml" filepath="$PROJECT_DIR$/Reflect/Reflect.iml" />
       <module fileurl="file://$PROJECT_DIR$/StreamAndReference/StreamAndReference.iml" filepath="$PROJECT_DIR$/StreamAndReference/StreamAndReference.iml" />
+      <module fileurl="file://$PROJECT_DIR$/css/css.iml" filepath="$PROJECT_DIR$/css/css.iml" />
       <module fileurl="file://$PROJECT_DIR$/day01_oct/day01_oct.iml" filepath="$PROJECT_DIR$/day01_oct/day01_oct.iml" />
       <module fileurl="file://$PROJECT_DIR$/day02-code/day02-code.iml" filepath="$PROJECT_DIR$/day02-code/day02-code.iml" />
       <module fileurl="file://$PROJECT_DIR$/day03-code/day03-code.iml" filepath="$PROJECT_DIR$/day03-code/day03-code.iml" />
@@ -35,6 +37,7 @@
       <module fileurl="file://$PROJECT_DIR$/day18-code/day18-code.iml" filepath="$PROJECT_DIR$/day18-code/day18-code.iml" />
       <module fileurl="file://$PROJECT_DIR$/day19-code/day19-code.iml" filepath="$PROJECT_DIR$/day19-code/day19-code.iml" />
       <module fileurl="file://$PROJECT_DIR$/day20-code/day20-code.iml" filepath="$PROJECT_DIR$/day20-code/day20-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/html/html.iml" filepath="$PROJECT_DIR$/html/html.iml" />
     </modules>
   </component>
 </project>

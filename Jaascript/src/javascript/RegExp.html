@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RegExp对象的使用</title>
+    <script>
+        var reg = new RegExp("^\\w{3,18}$");
+        var reg2 = /^\w{3,18}$/;
+        document.write(reg.test("jajfljf")+"<br>");
+        document.write(reg2.test("jajfljfgggfdgsgsgergggerggegsfg")+"<br>");
+    </script>
+</head>
+<body>
+
+</body>
+</html>

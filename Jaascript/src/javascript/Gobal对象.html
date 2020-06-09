@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gobal对象</title>
+    <script>
+        var str = "https://www.google.com/search?q=%E4%BA%94%E9%82%91%E5%A4%A7%E5%AD%A6";
+        var s = decodeURI(str+"<br>");
+        document.write(s);
+        var code = encodeURI(s);
+        document.write(code+"<br>");
+        document.write("--------"+"<br>");
+        s = decodeURIComponent(str);
+        document.write(s+"<br>");
+        code = encodeURIComponent(s);
+        document.write(code+"<br>");
+
+        var date = new Date();
+        document.write(String(date)+"<br>");
+        var number = parseInt(strNum);
+        document.write(number+"<br>");
+
+        eval(alert(isNaN(NaN)));
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

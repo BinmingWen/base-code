@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>history对象</title>
+</head>
+<body>
+<input type="button" id="bt" value="history对象">
+<input type="button" id="trump" value="去百度">
+<script>
+    var bt = document.getElementById("bt");
+    bt.onclick = function () {
+        location.reload();
+    }
+    var trump = document.getElementById("trump");
+    trump.onclick = function () {
+        location.href = "https://www.baidu.com";
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document对象属性</title>
+</head>
+<body>
+<a>点我试试</a>
+<input type="button" id="bton" value="设置属性">
+<input type="button" id="btn" value="删除属性">
+<script>
+    var bton = document.getElementById("bton");
+    bton.onclick = function () {
+        var bton_a= document.getElementsByTagName("a")[0];
+        bton_a.setAttribute("href","https://www.baidu.com");
+    }
+
+    var btn = document.getElementById("btn");
+    btn.onclick = function () {
+        var btn_a= document.getElementsByTagName("a")[0];
+        btn_a.remove();
+    }
+</script>
+</body>
+</html>

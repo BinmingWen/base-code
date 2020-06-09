@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>扩展选择器</title>
+    <style>
+    <!--    选择所有元素    -->
+        /**{
+            color: red;
+        }*/
+        *p,h2{
+            color:red;
+        }
+        div p{
+            color: red;
+        }
+        div>h3{
+            border: 30px;
+        }
+        input[type="text"]{
+            color: red;
+            border: red;
+        }
+        a:link{
+            color: red;
+        }
+        a:hover{
+            color: blue;
+
+        }
+        a:visited{
+            color: green;
+
+        }
+        a:active{
+            color: yellow;
+
+        }
+    </style>
+</head>
+<body>
+<div>五邑大学</div>
+<p>我爱你佳佳</p>
+<div>黑马是狗！~-</div>
+<h2>传智播客</h2>
+<div>
+    <p>你好啊，好好基督教</p>
+</div>
+<div>
+    <h3>你好啊</h3>
+</div>
+用户名：<input type="text"><br>
+密码：<input type="password" > <br>
+<a href="#">点击</a>
+</body>
+</html>

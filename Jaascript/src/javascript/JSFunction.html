@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Function对象的使用</title>
+    <script>
+        function fun1(a,b){
+            //alert(a+b);
+        }
+        fun1(1,3);
+        var fun2=function(a,b){
+           // alert(a)
+        }
+        fun2(3,4);
+        fun2();
+        function fun3(a,b) {
+            return a+b;
+        }
+        var f = fun3(3,3);
+        document.write(f+"<br>");
+        function fun4() {
+            alert(arguments[0]);
+            alert(arguments[1]);
+        }
+        fun4(3,4);
+        //对任意数进行求和
+        function add() {
+            var sum = 0;
+            for(var i=0;i<arguments.length;i++){
+                sum+=i;
+            }
+            return sum;
+        }
+        var sum = add(1,3);
+        write(sum);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
