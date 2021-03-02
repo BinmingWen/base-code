@@ -1,0 +1,21 @@
+ul li {
+    width: 100px;
+    height: 40px;
+    list-style: none;
+    text-indent: 4px;
+    background: black;
+    color: beige;
+    margin-bottom: 2px;
+    line-height: 40px;
+    text-indent: 5px;
+
+
+}
+ul{
+    padding: 0px;
+    font-size: 20px;
+}
+ul li:hover{
+    background-color: #FFD026;
+    cursor: pointer;
+}

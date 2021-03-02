@@ -1,0 +1,16 @@
+.menu{
+    list-style: none;
+    padding: 0px;
+    background: red;
+    color: white;
+}
+.menu li{
+    font-size: 20px;
+    width: 180px;
+    height: 30px;
+    background: black;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}

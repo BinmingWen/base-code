@@ -1,0 +1,19 @@
+<?xml version='1.0'?>
+<!--<?xml-stylesheet type="text/css" href="a.css"?>-->
+<users>
+    <user id="1">
+        <name>Tom</name>
+        <age>23</age>
+        <gender>male</gender>
+    </user>
+
+    <user id="2">
+        <name>Marry</name>
+        <age>24</age>
+        <gender>female</gender>
+        <code>
+            if(a &gt;b &amp;&amp; a&lt;c){}
+            <![CDATA[if(a>c && a<b)]]]>
+        </code>
+    </user>
+</users>

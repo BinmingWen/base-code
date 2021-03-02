@@ -37,4 +37,10 @@ public class R implements Comparable{
         }
         return false;
     }
+
+    @Override
+    public int hashCode() {
+        return 1;
+    }
+
 }

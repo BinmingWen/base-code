@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>伪类3</title>
+    <style>
+        input:focus {
+            background-color: orange;
+            color: black;
+            font-size: 80px;
+        }
+        option::selection{
+            background-color: red;
+            font-size: 33px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+<input type="text">
+<select id="city" size="6">
+    <option value="1">广州</option>
+    <option value="1">深圳</option>
+    <option value="1">佛山</option>
+    <option value="1">东莞</option>
+    <option value="1">茂名</option>
+</select>
+
+</body>
+</html>

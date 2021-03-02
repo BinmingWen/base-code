@@ -1,0 +1,33 @@
+.box {
+    width: 456px;
+    height: 270px;
+    position: relative;
+}
+.slide{
+    width: 900px;
+    height: 350px;
+}
+.bar{
+    bottom: 0px;
+    position: absolute;
+    line-height: 35px;
+}
+ul{
+    position: absolute;
+    list-style: none;
+    background: yellow;
+    bottom: 0px;
+    margin: 0px;
+    right: 0px;
+    padding: 0px;
+
+
+}
+ul li{
+    display: inline-block;
+    bottom: 0px;
+
+
+
+
+}
